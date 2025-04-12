@@ -19,7 +19,13 @@ except Exception as e:
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json()
+    
+
+    
     content = data.get('content', '')
+    
+    print(content)
+    
 
     X = vectorizer.transform([content])
     prediction = model.predict(X)[0]
