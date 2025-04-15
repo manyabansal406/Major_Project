@@ -24,7 +24,7 @@ const AdminLogin = ({ setAuthorized }) => {
         />
         <button
           onClick={handleLogin}
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-bold"
+          className="w-full bg-blue-600 hover:bg-blue-700 text-black py-3 rounded-lg font-bold"
         >
           Login
         </button>

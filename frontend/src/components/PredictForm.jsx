@@ -43,7 +43,7 @@ const PredictForm = ({ sessionId }) => {
         <button
           type="submit"
           disabled={loading}
-          className={`bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 ${
+          className={`bg-black-600 hover:bg-gray-200 text-green font-bold py-3 px-6 rounded-lg transition-all duration-300 ${
             loading ? "opacity-50 cursor-not-allowed" : ""
           }`}
         >
@@ -76,7 +76,7 @@ const PredictForm = ({ sessionId }) => {
             href="https://unrivaled-cascaron-5648eb.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-lg transition-all duration-300"
+            className="bg-black-500 hover:bg-gray-200 text-white font-bold py-2 px-6 rounded-lg transition-all duration-300"
           >
             Give feedback
           </a>

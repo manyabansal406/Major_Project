@@ -36,8 +36,8 @@ router.post("/", async (req, res) => {
         content: jobText,
       });
 
-      console.log(predictResponse.data);
-      console.log(predictResponse.data.prediction);
+      // console.log(predictResponse.data);
+      // console.log(predictResponse.data.prediction);
 
       if (
       
